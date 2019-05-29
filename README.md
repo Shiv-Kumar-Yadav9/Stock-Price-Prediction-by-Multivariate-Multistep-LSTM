@@ -35,6 +35,7 @@ The stock prices for the companies are collected for past 9 years (2010-2018). T
 	*   The stocks data for each company is downloaded from nseindia.com .
 	*   The data is downloaded from 01-01-2010 till 01-06-2018.
 	*   The closing price from the data is selected and stored in a csv file.
+	*   Download and store the stock price for each of the stock in the respective folder.
   
   The code is present in *Prepare_dataframe.ipynb*.
   
