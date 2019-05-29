@@ -47,9 +47,12 @@ The stock prices for the companies are collected for past 9 years (2010-2018). T
    The residual component is saved into *scaled_residual_df.csv* with its scaling measures stored in *scaled_mean_and_std.csv*.
    
    The code is present in *Generate_residual_components.ipynb*.
+
+
 |![residual][res]|
 |:---:|
 |Original series along with Trend, Seasonality and Residual components of the original series|
+
 
 ### Step3: Data Preparation
     The dataset is then prepared to use previous 7 days (lags) stock price of all 21 time series to predict the next 4 days (predictions) of one of the stocks.
@@ -81,16 +84,19 @@ The factors that were evaluated for better RMSE on prediction as well as lower l
 |Predicted values of the 2nd day (timestep+2) by the LSTM network|
 
 ## ERRORS
+
 |![absolute][abs]|
 |:---:|
 |Error between the actual value and the one predicted by the model,i.e., (Actual_value - Predicted_value)|
 ||
 |![mape][ma]|
 |Mean Absolute Percentage Error|
+
 The MAPE error goes high at times due to the value of actual being very low, close to 0 and a large value of difference between the actual and the predicted values.
 
 ## Output
 The output of the LSTM prediction for a duration of 200 days is plotted for the company L&T.
+
 |![output][out]|
 |:---:|
 |Output for the prediction of the stock price|
@@ -104,6 +110,6 @@ The output of the LSTM prediction for a duration of 200 days is plotted for the 
 [act]:misc/images/actual.png "act"
 [pred]:misc/images/prediction.png "pred"
 [abs]:misc/images/absolute.png "abs"
-[ma]:misc/images/mape.png "ma"
+[ma]:misc/images/MAPE.png "ma"
 [out]:misc/images/output.png "out"
 [res]:misc/images/residual.png "res"
