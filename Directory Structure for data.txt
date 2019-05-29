@@ -1,0 +1,33 @@
+DATASET
+|
++-- ASIANPAINT
+|   |
+|   +-- 01-01-2010-TO-31-12-2010CIPLAEQN.csv
+|   ...
+|   +-- 01-01-2018-TO-01-06-2018CIPLAEQN.csv
+|   |
++-- BHARTIARTL
++-- CIPLA
++-- HCLTECH
++-- HDFCBANK
++-- HINDUNILVR
++-- ICICIBANK
++-- INDUSINDBK
++-- INFY
++-- ITC
++-- KOTAKBANK
++-- LT
++-- M&M
++-- MARUTI
++-- NTPC
++-- ONGC
++-- POWERGRID
++-- RELIANCE
++-- SBIN
++-- SUNPHARMA
++-- TATAMOTORS
++-- TCS
++-- TECHM
++-- VEDL
+|
++
