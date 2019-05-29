@@ -19,11 +19,17 @@ The companies are namely ASIANPAINT, BHARTIARTL, CIPLA, HCLTECH, HDFCBANK, HINDU
 
 The stock prices for the companies are collected for past 9 years (2010-2018). The closing price is then selected and is used in further steps.
 
-## Requirements
-    Version of Pyhton: python 3.5
+## REQUIREMENTS
+    Install requirements.txt file to make sure correct versions of libraries are being used.
+
+	Python 3.5.x
+	TensorFlow 1.10.0
+	Numpy 1.15.0
+	Keras 2.2.2
+	Matplotlib 2.2.2
 	
 
-## Model Steps
+## MODEL STEPS
 ### Step1: Data gathering.
 
 	*   The stocks data for each company is downloaded from nseindia.com .
@@ -74,7 +80,7 @@ The factors that were evaluated for better RMSE on prediction as well as lower l
 
     The prediction from the LSTM were scaled back so that they can be compared with the residuals that the LSTM network was predicting.
     
-## Actual residuals and the predictions
+## ACTUAL RESIDUALS AND PREDICTIONS
 
 |![actuals][act]|
 |:---:|
@@ -94,7 +100,7 @@ The factors that were evaluated for better RMSE on prediction as well as lower l
 
 The MAPE error goes high at times due to the value of actual being very low, close to 0 and a large value of difference between the actual and the predicted values.
 
-## Output
+## OUTPUT
 The output of the LSTM prediction for a duration of 200 days is plotted for the company L&T.
 
 ### *Blue* denotes the actual values and *Red* represents the predictions
@@ -103,7 +109,7 @@ The output of the LSTM prediction for a duration of 200 days is plotted for the 
 |:---:|
 |Output for the prediction of the stock price|
 
-## References
+## REFERENCES
     Dataset from www.nseindia.com.
     Information about companies and NIFTY 50 from www.niftyindices.com.
     LSTM tutorials by Jason Brownlee at machinelearningmastery.com.
