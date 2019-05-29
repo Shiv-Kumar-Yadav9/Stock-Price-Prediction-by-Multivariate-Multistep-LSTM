@@ -97,6 +97,8 @@ The MAPE error goes high at times due to the value of actual being very low, clo
 ## Output
 The output of the LSTM prediction for a duration of 200 days is plotted for the company L&T.
 
+### *Blue* denotes the actual values and *Red* represents the predictions
+
 |![output][out]|
 |:---:|
 |Output for the prediction of the stock price|
