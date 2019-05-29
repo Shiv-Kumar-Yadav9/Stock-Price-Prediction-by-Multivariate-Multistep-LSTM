@@ -1,6 +1,6 @@
 # Stock-Price-Prediction---Multivariate-Multistep-LSTM-forecasting
 
-In this repository the stock price values of the 21 companies of NIFTY50 is taken as input and is then inturn used to predict the next 4 day stock prices of any particular stock.
+In this repository the stock price values of the 21 companies of NIFTY50 is taken as input and are then used to predict the next 4 day stock prices of any particular stock.
 
 ## CONCEPT
 
